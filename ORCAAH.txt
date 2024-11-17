@@ -6,7 +6,7 @@
 * Authors v2.1: Erik Lash and Summer 2024 NASA DEVELOP PUP team.              *
 * Date: August 26, 2024                                                       *
 * Project: Hilo Bay Water Resources, Summer 2024                              *
-* Contact: erik.lash@hawaiicounty.gov                                         *
+* Contact: geographic.el@gmail.com                                       *
 * Description: A Google Earth Engine Tool developed to monitor the spatial and*
 * temporal variability of coastal water quality parameters in proximity to the*
 * Hawaii Reef Systems. ORCAA performs the following                           *
