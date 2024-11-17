@@ -1,11 +1,9 @@
 # ORCAAH
  Optical Reef and Coastal Area Assessment of Hawaii Tool
 
-===============
 ============================================================================================================
 Optical Reef and Coastal Area Assessment of Hawaii (ORCAAH) Tool
 ============================================================================================================
-===============
 
 Date Created: August 26, 2024
 
@@ -26,7 +24,6 @@ Based on the user selected time range and area of analysis, the tool accesses an
 
 Turbidity, Normalized Difference Chlorophyll Index, chlorophyll-a concentration, and colored dissolved organic matter concentration are calculated from the filtered and corrected Sentinel-2 image collection. Turbidity is also derived from the filtered Landsat 8 collection. Sea surface temperature is taken from the ‘SST’ band in the MODIS collections. 
 
-===================
  Required Packages
 ===================
 
@@ -34,28 +31,24 @@ ORCAAH derives all analyses using Google Earth Engine's free and publicly access
 Users do not need to load in their own data, but do need to request an account with Google Earth Engine at code.earthengine.google.com.
 Accounts are free and typically approved within a few days. 
 
-============
  Parameters
 ============
 
 No steps must be taken to modify the code to enable it to run - users paste the provided code directly into the Google Earth Engine Code Editor and
 select "Run." This will load the interface with which users directly interact. The interface includes brief directions to guide users through each analysis option. 
 
-======================
  Contact ORCAAH Tool
 ======================
 
 Names: Erik Lash
 E-mails: erik.lash@hawaiicounty.gov
 
-==================================
  Contact NASA DEVELOP ORCAA tool
 ==================================
 
 Names: Vanessa Valenti | Hayley Pippin | Arbyn Olarte | Roxana Pilot
 E-mails: vvalenti@ucla.edu | habpippin@berkeley.edu | arbynolarte@gmail.com | roxana.pilot@gmail.com
 
-============================
  Copyright Notice
 ============================
 This software may be used, reproduced, and provided to others only as permitted under the terms of the agreement under which it was acquired from the U.S. Government.  Neither title to, nor ownership of, the software is hereby transferred.  This notice shall remain on all copies of the software.
