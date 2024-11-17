@@ -1,7 +1,6 @@
 # ORCAAH
  Optical Reef and Coastal Area Assessment of Hawaii Tool
 
-============================================================================================================
 Optical Reef and Coastal Area Assessment of Hawaii (ORCAAH) Tool
 ============================================================================================================
 
@@ -41,12 +40,14 @@ select "Run." This will load the interface with which users directly interact. T
 ======================
 
 Names: Erik Lash
+
 E-mails: erik.lash@hawaiicounty.gov
 
- Contact NASA DEVELOP ORCAA tool
+ Contact NASA DEVELOP ORCAA Tool
 ==================================
 
 Names: Vanessa Valenti | Hayley Pippin | Arbyn Olarte | Roxana Pilot
+
 E-mails: vvalenti@ucla.edu | habpippin@berkeley.edu | arbynolarte@gmail.com | roxana.pilot@gmail.com
 
  Copyright Notice
