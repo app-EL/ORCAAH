@@ -41,7 +41,7 @@ select "Run." This will load the interface with which users directly interact. T
 
 Names: Erik Lash
 
-E-mails: erik.lash@hawaiicounty.gov
+E-mails: geographic.el@gmail.com
 
  Contact NASA DEVELOP ORCAA Tool
 ==================================
