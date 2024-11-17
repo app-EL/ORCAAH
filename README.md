@@ -8,9 +8,9 @@ Date Created: August 26, 2024
 
 The Optical Reef and Coastal Area Assessment of Hawaii (ORCAAH) tool is a fork of the NASA DEVELOP Optical Reef and Coastal Area Assessment (ORCAA) Tool.
 
-Settings have been changed to meet the specific needs of Hawaii nearshore environnments and reef systems
+Settings have been changed from the original ORCAA Tool to meet the specific needs of Hawaii nearshore environnments and reef systems based upon work accomplished in the summer 2024 Hilo Bay Water Resources NASA DEVELOP Pop Up Project.
 
-It allows users to monitor, track, and evaluate water parameters in Hawaii Island nearshore reefs from January 2013 through the current date.
+ORCAAH allows users to monitor, track, and evaluate water parameters in Hawaii Island nearshore environments from January 2013 through the current date.
 
 It uses a graphical user interface (GUI) so that users can easily add, process, view, and export data. The interface contains four main parts:
 
