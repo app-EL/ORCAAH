@@ -1,5 +1,4 @@
 # Optical Reef and Coastal Area Assessment of Hawaii (ORCAAH) Tool
-============================================================================================================
 
 Date Created: August 26, 2024
 
