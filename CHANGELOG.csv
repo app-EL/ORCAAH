@@ -1,0 +1,14 @@
+﻿Team,Accept,Original Ln,Section,Code,Edit - include reference to original values.,Purpose
+EL,Y,Various,All,,Replace references to Caribbean with Hawaii project specific references,Create Hawaii Fork of ORCAAA
+ND,N,55-59,All Geometries,//location to zoom to when tool first runs,Reset initial starting location from Caribbean.,To center starting location over Hilo Bay Study Area shapefile
+,,,,var initial_loc = HiloBay // Center Map to Hilo Bay  ,,
+,,,,"Map.centerObject(HiloBay,14);",,
+EL,Y,59 - 1026 ++,All Geometries,Remove Caribbean/Add Hawaii features,"Points, Geometries, MPAs, ROIs, map center, AOI,  selections, ",Recenter the analysis on Hawaii Island
+ND,N,61,All Geometries,Map.addLayer(HiloBay);,Added outline of study area ,Show user boundary area
+ND,Y,1606,User Interface,"value: 'English',",Set default language to ‘English’ instead of ‘Español’,Customized default setting tailored to English users 
+ND,Y,1338,Functions for Analysis,"var landsat8 = ee.ImageCollection(""LANDSAT/LC08/C02/T2""); //0","Updated Landsat 8 Image Collection to Tier 2 from C01 ""LANDSAT/LC08/C01/T1_SR""",Tier 2 provides most up-to-date imagery 
+ND,Y,1550,User Interface, title: ['Optical Reef and Coastal Area Assessment of Hawaii (ORCAAH) Tool’,Add “of Hawaii (ORCAAH)” into panel,Update tool name in user interface
+ND ,Y,1139-1142,Stable Inputs > Visual Parameters,"// Turbidity var turb_viz = {   min:0,   max:5,",The turbidity maximum was changed within the visual parameters from 100 to 5 FNU,More appropriate range to see spatial patterns  
+ND ,Y,1909-1911,Legend Panels > Turbidity Legend,"ui.Label('0', {margin: '4px 8px'}), ui.Label('5', {margin: '4px 230px'})",Turbidity range changed in legend from 0-5,Match turbidity legend to visual parameters
+ND,Y,1152-1156,Stable Inputs > Visual Parameters,"// Chlorophyll-a var mishra_viz = {   bands: ""s2_chl"",   min: 0,   max: 5, ",Chl-a concentration min set to 0 and max set to 5 from 0 and 50,Smaller range is more appropriate for chlorophyll-a range  
+ND,Y,1983-1984,Legend Panels > Chlorophyll-a  Legend,"ui.Label('0', {margin: '4px 8px'}), ui.Label('5', {margin: '4px 230px'})",Chl-a max and min change within legend to 0-5,Match chl-a legend to visual parameters
